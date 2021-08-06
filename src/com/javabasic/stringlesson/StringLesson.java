@@ -28,7 +28,7 @@ public class StringLesson {
         // Bài 5 : Đổi "Toi yeu Da Nang" thành "Toi yeu Ha Noi"
         String strExample_3=strExample.replace("Da Nang","Ha Noi");
         System.out.println("Thay đổi chuỗi : "+strExample_3);
-
+ 
         // Bài 6: kiểm tra một chuỗi có rỗng không
         String strExample_4 = "";
         String strExample_5 = "abcd";
