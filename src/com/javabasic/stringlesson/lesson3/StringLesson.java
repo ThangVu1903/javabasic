@@ -1,4 +1,4 @@
-package com.javabasic.stringlesson;
+package com.javabasic.stringlesson.lesson3;
 
 public class StringLesson {
     public static void main(String[] args) {

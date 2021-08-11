@@ -1,6 +1,4 @@
-package com.javabasic.stringlesson.lesson2;
-
-import javafx.scene.transform.Scale;
+package com.javabasic.stringlesson.lesson4;
 
 import java.util.Scanner;
 
