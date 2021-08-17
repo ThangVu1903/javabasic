@@ -12,6 +12,7 @@ public class GeneralWish {
         int max = generalWishMax(number1, number2);
         System.out.println("The largest common estimate is: "+max);
 
+
     }
     public static int enterNumber() {
         Scanner scanner = new Scanner(System.in);

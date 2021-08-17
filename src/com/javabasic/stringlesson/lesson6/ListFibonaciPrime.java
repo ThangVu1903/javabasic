@@ -11,7 +11,6 @@ public class ListFibonaciPrime {
         System.out.println("\nThe first " + number + " fibonacci number are:") ;
         countFibonaci(number);
 
-
     }
     public static int enterNumber(){
         Scanner scanner=new Scanner(System.in);

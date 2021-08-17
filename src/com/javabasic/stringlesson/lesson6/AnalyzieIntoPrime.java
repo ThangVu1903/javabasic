@@ -7,6 +7,7 @@ public class AnalyzieIntoPrime {
     public static void main(String[] args) {
         int number=enterNumber();
         analyzing(number);
+
     }
     public static int enterNumber(){
         Scanner scanner=new Scanner(System.in);

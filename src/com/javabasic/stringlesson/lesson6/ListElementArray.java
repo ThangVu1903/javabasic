@@ -21,6 +21,7 @@ public class ListElementArray {
              array[i] = scanner.nextInt();
 
          }
+
          return array;
      }
 

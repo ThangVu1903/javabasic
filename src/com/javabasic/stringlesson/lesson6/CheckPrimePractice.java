@@ -13,6 +13,7 @@ public class CheckPrimePractice {
                 System.out.print(i+" ");
             }
         }
+
     }
 
     public static int enterNumber(){
