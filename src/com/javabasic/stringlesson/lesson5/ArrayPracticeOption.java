@@ -10,7 +10,8 @@ public class ArrayPracticeOption {
         array[4]=19;
         array[5]=11;
     printArray(array);
-    insertArray(array);
+    insertArray(array, 2,100);
+    deleteArray(array,1);
     }
     public static void printArray(int[] array){
         System.out.println("given array: ");
@@ -18,12 +19,23 @@ public class ArrayPracticeOption {
             System.out.print(array[i] + "  ");
         }
     }
-    public static void insertArray(int[] array){
-        int length = array.length;
-        array[2]=100;
-        for (int i=length;i>=0;i--){
+    public static void insertArray(int[] array, int k, int value){
+        int length = array.length-1;
+
+        for (int i=length;i>k;i--){
            array[i]=array[i-1];
             System.out.println(array[i]);
         }
+        array[k]=value;
+        printArray(array);
     }
+
+
+    public static void deleteArray(int[] array, int k){
+        for (int i=k;i < array.length-1;i++){
+            array[i]=array[i+1];
+        }
+        printArray(array);
+    }
+
 }
